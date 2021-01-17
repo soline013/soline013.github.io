@@ -1,10 +1,11 @@
-title: Parchment
-author: pro-panda
+title: IT Workshop
+author: soline013
 subtitle: The life of a frustrated engineer
 
 url: "https://pro-panda.github.io"
 baseurl: "/parchment"
 
+#
 footer_only_homepage: true
 footer_url: "https://github.com/pro-panda"
 footer_text: "Theme by pro-panda"
