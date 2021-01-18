@@ -1,11 +1,11 @@
-title: IT Workshop
+title: 공사 중
 author: soline013
 subtitle: The life of a frustrated engineer
 
-url: "https://pro-panda.github.io"
+url: "https://soline013.github.io" #https://pro-panda.github.io.
 baseurl: "/parchment"
 
-#
+#Foot Part. 바닥글.
 footer_only_homepage: true
 footer_url: "https://github.com/pro-panda"
 footer_text: "Theme by pro-panda"
@@ -18,8 +18,7 @@ sass:
     style: compressed
     sass_dir: css
 
+#Navigation Bar. 상단 메뉴바.
 navbar:
  - name: "About"
    link: "about"
- - name: "Resume"
-   absolute-link: "https://pro-panda.github.io/resume.pdf"
