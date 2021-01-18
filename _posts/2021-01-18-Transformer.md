@@ -53,7 +53,7 @@ Self Attention이 아니거나, Output Embedding인 경우가 있으나 위에�
 
 Word Embedding
 
-[tf.keras.layers.Embedding | TensorFlow Core v2.3.0](https://www.tensorflow.org/api_docs/python/tf/keras/layers/Embedding)
+[tf.keras.layers.Embedding TensorFlow Core v2.3.0](https://www.tensorflow.org/api_docs/python/tf/keras/layers/Embedding)
 
 [Glossary of Deep Learning: Word Embedding](https://medium.com/deeper-learning/glossary-of-deep-learning-word-embedding-f90c3cec34ca)
 
@@ -376,7 +376,7 @@ seq2seq Decoder와 달리, Transformer Decoder는 문장 행렬로 입력을 한
 
 ### Auto Regressive & Teacher Forcing.
 
-[Transformer model for language understanding | TensorFlow Core](https://www.tensorflow.org/tutorials/text/transformer#training_and_checkpointing)
+[Transformer model for language understanding TensorFlow Core](https://www.tensorflow.org/tutorials/text/transformer#training_and_checkpointing)
 
 [고작 인간 : 네이버 블로그](https://blog.naver.com/just_nlp/222136930059)
 
@@ -428,7 +428,7 @@ Original Comments.
 
 [위키독스](https://wikidocs.net/31379)
 
-[Transformer model for language understanding | TensorFlow Core](https://www.tensorflow.org/tutorials/text/transformer)
+[Transformer model for language understanding TensorFlow Core](https://www.tensorflow.org/tutorials/text/transformer)
 
 [The Illustrated Transformer](https://nlpinkorean.github.io/illustrated-transformer/)
 
