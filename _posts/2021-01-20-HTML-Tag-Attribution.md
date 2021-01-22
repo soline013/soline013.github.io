@@ -39,7 +39,7 @@ Ctrl + F를 눌러 원하는 Tag를 찾을 수 있습니다.
 
         `target` : 링크가 어떻게 열리는지 지정.
 
-18. `<cite> </cite>` : <a>에 같이 사용되어 출처를 표시할 수 있다.
+18. `<cite> </cite>` : &it;a>에 같이 사용되어 출처를 표시할 수 있다.
 
 19. `<link>` : 문서간 연결, 외부 리소스 연결. Favicon. CSS Stylesheets.
     - `<link>`의 속성.

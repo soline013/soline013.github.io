@@ -1,0 +1,42 @@
+I"g<p>#Mediator Formats and CSS features</p>
+
+<p>Examples for different formats and css features</p>
+
+<p>#Header Formats
+#Header1
+##Header2</p>
+
+<p>#Blockquotes</p>
+<blockquote>
+  <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus</p>
+</blockquote>
+
+<p>#Lists
+##orderd lists</p>
+<ol>
+  <li>one</li>
+  <li>two</li>
+  <li>three</li>
+</ol>
+
+<p>##unorderd lists</p>
+<ul>
+  <li>Apple</li>
+  <li>Banana</li>
+  <li>Plum</li>
+</ul>
+
+<p>#Links
+This is an <a href="http://example.com/" title="With a Title">example link</a>.</p>
+
+<p>#Combinations</p>
+<blockquote>
+  <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus</p>
+
+  <ul>
+    <li>Apple</li>
+    <li>Banana</li>
+    <li>Plum</li>
+  </ul>
+</blockquote>
+:ET
