@@ -14,7 +14,7 @@ logo: "/assets/images/df_logo.jpg"
 float_logo: false # true, false (default) #df_logo를 띄울지 결정합니다.
 
 # blog cover
-cover: "/assets/images/HS_BIG.png"
+cover: "/assets/images/HS_BIG_.png"
 
 name: 'La La Land'
 author: 'Sollie'
