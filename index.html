@@ -2,6 +2,7 @@
 layout: default
 ---
 
+<!-- _config.yml에서 'cover'를 가져온다. -->
 <div class="teaserimage">
     <div class="teaserimage-image" {% if site.cover %}style="background-image: url({{ site.cover | prepend: site.baseurl }})"{% endif %}>
         Teaser Image
@@ -9,12 +10,19 @@ layout: default
 </div>
 
 <header class="blog-header">
+    <!-- _config.yml에서 'logo'를 가져온다. -->
     {% if site.logo %}
       <a class="blog-logo" href="{{site.url}}{{site.baseurl}}" style="background-image: url('{{ site.logo | prepend: site.baseurl }}')">{{ site.title }}</a>
     {% endif %}
+
+    <!-- _config.yml에서 title을 가져온다. -->
     <h1 class="blog-title">{{ site.title }}</h1>
+
+    <!-- _config.yml에서 description을 가져온다. -->
     <h2 class="blog-description">{{ site.description }}</h2>
+
     <div class="custom-links">
+      <!-- _config.yml에서 social 정보를 가져온다. -->
       {% for social in site.social %}
         {% if social.url %}
             <a class="icon-{{ social.icon }}" href="{{ social.url }}" {% if social.desc %} title="{{ social.desc }}"{% endif %}">
@@ -23,7 +31,13 @@ layout: default
             &nbsp;&nbsp;·&nbsp;&nbsp;
         {% endif %}
       {% endfor %}
+
+      <!-- Navigation Bar 역할을 한다. -->
       <a href={{ "/about/" | prepend: site.baseurl }}>About</a>
+      <span> | </span>
+      <a href={{ "/categories/" | prepend: site.baseurl }}>categories</a>
+      <span> | </span>
+      <a href={{ "/tags/" | prepend: site.baseurl }}>tags</a>
     </div>
 </header>
 
@@ -45,7 +59,7 @@ layout: default
             </section>
             <div class="post-meta">
               <time datetime="{{ post.date | date_to_long_string }}">{{ post.date | date_to_long_string }}</time>
-  <!--            <span class="post-tags-set">on {{#foreach tags}}<span class="post-tag-{{slug}}">{{#if @first}}{{else}}, {{/if}}<a href="/tag/{{slug}}">{{name}}</a></span>{{/foreach}}</span>-->
+              <span class="post-tags-set">on {{#foreach tags}}<span class="post-tag-{{slug}}">{{#if @first}}{{else}}, {{/if}}<a href="/tag/{{slug}}">{{name}}</a></span>{{/foreach}}</span>
             </div>
           </div>
         </article>
@@ -56,6 +70,7 @@ layout: default
     {% endif %}
 
     <div class="cf frame">
+      <p>이 부분은 어디인지 확인해봅시다.</p>
       {% for post in paginator.posts %}
         <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
           <div class="article-item">
@@ -67,14 +82,17 @@ layout: default
             </section>
             <div class="post-meta">
               <time datetime="{{ post.date | date_to_long_string }}">{{ post.date | date_to_long_string }}</time>
-<!--            <span class="post-tags-set">on {{#foreach tags}}<span class="post-tag-{{slug}}">{{#if @first}}{{else}}, {{/if}}<a href="/tag/{{slug}}">{{name}}</a></span>{{/foreach}}</span>-->
+              <span class="post-tags-set">on {{#foreach tags}}<span class="post-tag-{{slug}}">{{#if @first}}{{else}}, {{/if}}<a href="/tag/{{slug}}">{{name}}</a></span>{{/foreach}}</span>
             </div>
           </div>
         </article>
       {% endfor %}
+      <p>이 부분은 어디인지 확인해봅시다.</p>
     </div>
 
     <nav class="pagination" role="navigation">
+      <p>&lt;nav&gt; 부분임을 알려줍니다.</p>
+
       {% if paginator.next_page %}
         <a class="newer-posts" href={{ "/page" | prepend: site.baseurl | append: paginator.next_page }}>&larr; Older posts</a>
       {% endif %}
@@ -86,8 +104,9 @@ layout: default
           <a class="older-posts" href={{ "/page" | prepend: site.baseurl | append: paginator.previous_page }}>Newer posts &rarr;</a>
         {% endif %}
       {% endif %}
-    </nav>
 
+      <p>&lt;nav&gt; 부분임을 알려줍니다.</p>
+    </nav>
 
     <!-- {{!! After all the posts, we have the previous/next pagination links }}
     {{pagination}} -->
