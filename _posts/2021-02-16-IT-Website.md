@@ -5,7 +5,7 @@ subtitle: 다양한 IT Website를 모아둔 곳입니다.
 ---
 # AI/ML.
 
-[홈 | AI Hub](https://aihub.or.kr/)
+[홈, AI Hub](https://aihub.or.kr/)
 
 [Kaggle: Your Machine Learning and Data Science Community](https://www.kaggle.com/)
 
@@ -15,7 +15,7 @@ subtitle: 다양한 IT Website를 모아둔 곳입니다.
 
 [다 함께 배우고 성장하는 부스트코스](https://www.boostcourse.org/)
 
-[Coursera | Build Skills with Online Courses from Top Institutions](https://www.coursera.org/)
+[Coursera, Build Skills with Online Courses from Top Institutions](https://www.coursera.org/)
 
 [에듀케이션위드 : edwith](https://www.edwith.org/)
 
@@ -39,7 +39,7 @@ subtitle: 다양한 IT Website를 모아둔 곳입니다.
 
 [꿈꾸는 개발자 데뷔코스, 싹](https://ssac.seoul.kr/main/index.jsp)
 
-[42 Seoul | 이노베이션 아카데미 교육 프로그램](https://42seoul.kr/apply)
+[42 Seoul, 이노베이션 아카데미 교육 프로그램](https://42seoul.kr/apply)
 
 ---
 
