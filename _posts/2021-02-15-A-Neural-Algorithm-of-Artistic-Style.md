@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A Neural Algorithm of Artistic Style
-subtitle: A Neural Algorithm of Artistic Style는 2015년에 발표된 Style Transfer 논문입니다.
+subtitle: 2015년에 발표된 Style Transfer 논문입니다.
 ---
 
 # A Neural Algorithm of Artistic Style
