@@ -131,10 +131,10 @@ Framework는 Tensorflow와 Pytorch를 모두 사용하였고, Result에서는 Te
 
 [고흐의 그림을 따라그리는 Neural Network, A Neural Algorithm of Artistic Style (2015) - README](http://sanghyukchun.github.io/92/)
 
-[CNN을 활용한 스타일 전송(Style Transfer) | 꼼꼼한 딥러닝 논문 리뷰와 코드 실습](https://www.youtube.com/watch?v=va3e2c4uKJk&fbclid=IwAR05YuKVXga_kOD-0W-YO42SCIUN7REu20YmQCoEaztrh9Is29o3ule_874)
+[CNN을 활용한 스타일 전송(Style Transfer), 꼼꼼한 딥러닝 논문 리뷰와 코드 실습](https://www.youtube.com/watch?v=va3e2c4uKJk&fbclid=IwAR05YuKVXga_kOD-0W-YO42SCIUN7REu20YmQCoEaztrh9Is29o3ule_874)
 
 [Neural Transfer Using PyTorch - PyTorch Tutorials 1.7.1 documentation](https://pytorch.org/tutorials/advanced/neural_style_tutorial.html)
 
-[tf.keras를 사용한 Neural Style Transfer | TensorFlow Core](https://www.tensorflow.org/tutorials/generative/style_transfer?hl=ko)
+[tf.keras를 사용한 Neural Style Transfer, TensorFlow Core](https://www.tensorflow.org/tutorials/generative/style_transfer?hl=ko)
 
 [[딥러닝]Neural Style Transfer](https://ssungkang.tistory.com/entry/%EB%94%A5%EB%9F%AC%EB%8B%9DNeural-Style-Transfer)
