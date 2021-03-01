@@ -1,3 +1,9 @@
+---
+layout: post
+title: Leture Summary
+subtitle: 다양한 강의의 장점, 단점, 내용 등을 정리한 곳입니다.
+---
+
 # 모두를 위한 딥러닝.
 
 장점.
