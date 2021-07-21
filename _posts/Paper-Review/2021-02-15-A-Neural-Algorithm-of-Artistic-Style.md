@@ -6,8 +6,6 @@ comments: true
 categories: Paper-Review
 ---
 
-# A Neural Algorithm of Artistic Style
-
 ## Introduction.
 
 CNN의 Layer는 이미지에서 Feature를 뽑아낸다.
@@ -22,11 +20,15 @@ CNN의 출력은 Feature Map으로 표현되고, 더 높은 Layer로 갈수록 F
 
 [Understanding Deep Image Representations by Inverting Them](http://arxiv.org/abs/1412.0035)
 
+---
+
 그리고 Texture를 분석하고 복원하는 내용을 다룬 논문도 존재한다.
 
 아래 논문은 A Neural Algorithm of Artistic Style 연구팀의 3개월 전 논문이다.
 
 [Texture Synthesis Using Convolutional Neural Networks](http://arxiv.org/abs/1505.07376)
+
+---
 
 2015년 발표된 이 논문은 앞선 내용을 바탕으로 CNN에서 Style과 Content를 복원하여 새로운 이미지를 만드는 것을 다룬다.
 
