@@ -1,9 +1,9 @@
 ---
 layout: post
 comments: true
-categories: diary
+categories: ETC
 ---
 
-## Empty diary template
+## Empty ETC template
 
 Empty post template
