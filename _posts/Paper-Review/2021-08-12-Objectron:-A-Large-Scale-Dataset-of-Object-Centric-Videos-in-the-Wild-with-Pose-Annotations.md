@@ -6,8 +6,6 @@ comments: true
 categories: Paper-Review
 ---
 
-# Objectron: A Large Scale Dataset of Object-Centric Videos in the Wild with Pose Annotations.
-
 [Objectron: A Large Scale Dataset of Object-Centric Videos in the Wild with Pose Annotations](https://arxiv.org/pdf/2012.09988v1.pdf)
 
 ## Abstract.
